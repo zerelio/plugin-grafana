@@ -1,21 +1,23 @@
 # Binaries
-plugin-grafana
 *.exe
-*.out
-
-# Test cache
 *.test
+*.out
+/dist/
 
-# Go workspace files
-go.work
-go.work.sum
+# Internal dev artifacts — not for public repos
+AGENTS.md
+CURRENT_STATE.md
+NEXT_SESSION.md
+ROADMAP.md
+docs/execution-log/
+docs/phase-zero/
+docs/research/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
+# IDE
 .idea/
 .vscode/
 *.swp
-*.swo
+.DS_Store
+
+# Plugin binary
+plugin-grafana
