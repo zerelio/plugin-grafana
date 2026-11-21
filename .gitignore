@@ -1,0 +1,21 @@
+# Binaries
+plugin-grafana
+*.exe
+*.out
+
+# Test cache
+*.test
+
+# Go workspace files
+go.work
+go.work.sum
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
